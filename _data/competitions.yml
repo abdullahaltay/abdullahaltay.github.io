@@ -8,10 +8,17 @@
 
 # Kaggle
 - competition: <a href="https://www.kaggle.com/abduiiahaitay/competitions?tab=completed" target="_blank">Kaggle</a>
+  role: <a href="https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31" target="_blank">AI Village Capture the Flag @ DEFCON31</a>
+  duration: 290th/1360 (Top 22%)
+  url: "#"
+  description: 
+
+# Kaggle
+- competition: ""
   role: <a href="https://www.kaggle.com/competitions/turkiye-is-bankasi-ml-challenge-5" target="_blank">Turkiye İs Bankasi Machine Learning Challenge 5</a>
   duration: 15th/284 (Top 6%)
   url: "#"
-  description: 
+  description:
 
 # Kaggle
 - competition: ""
