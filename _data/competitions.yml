@@ -8,10 +8,17 @@
 
 # Kaggle
 - competition: <a href="https://www.kaggle.com/abduiiahaitay/competitions?tab=completed" target="_blank">Kaggle</a>
-  role: <a href="https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31" target="_blank">AI Village Capture the Flag @ DEFCON31</a>
+  role: <a href="https://www.kaggle.com/competitions/playground-series-s3e25" target="_blank">Regression with a Mohs Hardness Dataset</a>
+  duration: 52th/1632 (Top 4%)
+  url: "#"
+  description:
+
+# Kaggle
+- competition: ""
+  role: <a href="https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31" target="_blank">TAI Village Capture the Flag @ DEFCON31</a>
   duration: 282th/1344 (Top 21%)
   url: "#"
-  description: 
+  description:
 
 # Kaggle
 - competition: ""
