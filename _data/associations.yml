@@ -1,7 +1,10 @@
 # Associations
 # comment out the urls if you do not wish to display them
+- organization: "" #<a href="https://conferences.univ-danubius.ro/index.php/EIRP/EIRP2024" target="_blank">EIRP International Conference</a>
+  summary: <a href="https://conferences.univ-danubius.ro/index.php/EIRP/EIRP2024/paper/view/3442" target="_blank">1. Neslihanoglu S., Altay A., "Prediction of US Agricultural Commodity Prices with Ordinary Least Squares and Long Short-Term Memory Neural Networks", 19th International Conference on European Integration - Realities and Perspectives, Galați, Romania, 17-18 May 2024</a>
+
 - organization: "" #<a href="https://2020.econtr.org" target="_blank">EconTR2020@Eskisehir</a>
-  summary: <a href="https://1drv.ms/b/s!As4Samx1vHz8g6FX63iPYQ7jpZEazw?e=37SdSs" target="_blank">1. Neslihanoglu S., Altay A., "Comparison of Modelling and Future Forecasting Performance of  OECD Countries Data with the Ordinary Least Squares Method and Long Short-Term Memory Neural Networks", International Conference on Economics (EconTR2020@Eskisehir), Eskisehir, Turkey, 10-12 September 2020</a>
+  summary: <a href="https://1drv.ms/b/s!As4Samx1vHz8g6FX63iPYQ7jpZEazw?e=37SdSs" target="_blank">2. Neslihanoglu S., Altay A., "Comparison of Modelling and Future Forecasting Performance of  OECD Countries Data with the Ordinary Least Squares Method and Long Short-Term Memory Neural Networks", International Conference on Economics (EconTR2020@Eskisehir), Eskisehir, Turkey, 10-12 September 2020</a>
 
 - organization: "" # <a href="http://www.icondata.org/tr/icondata-19" target="_blank">ICONDATA'19</a>
-  summary: <a href="http://www.icondata.org/uploads/kcfinder/upload/files/ICONDATA19_Abstract_final.pdf#page=33" target="_blank">2. Altay A., Neslihanoglu S., "Estimation Modelling of Ames Housing Price with Machine Learning Algorithms", 2nd International Conference on Data Science and Applications (ICONDATA'19), Edremit, Turkey, 3-6 October 2019, vol2, pp13</a>
+  summary: <a href="http://www.icondata.org/uploads/kcfinder/upload/files/ICONDATA19_Abstract_final.pdf#page=33" target="_blank">3. Altay A., Neslihanoglu S., "Estimation Modelling of Ames Housing Price with Machine Learning Algorithms", 2nd International Conference on Data Science and Applications (ICONDATA'19), Edremit, Turkey, 3-6 October 2019</a>
