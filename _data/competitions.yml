@@ -8,6 +8,12 @@
 
 # Kaggle
 - competition: <a href="https://www.kaggle.com/abduiiahaitay/competitions?tab=completed" target="_blank">Kaggle</a>
+  role: <a href="https://www.kaggle.com/competitions/datathon-2024/" target="_blank">BTK Akademi Datathon 2024</a>
+  duration: 36th/364 (Top 10%)
+  url: "#"
+  description:
+
+- competition: ""
   role: <a href="https://www.kaggle.com/competitions/playground-series-s3e25" target="_blank">Regression with a Mohs Hardness Dataset</a>
   duration: 52th/1632 (Top 4%)
   url: "#"
@@ -50,7 +56,7 @@
 
 # Kaggle
 - competition: ""
-  role: <a href="https://www.kaggle.com/competitions/datathon2022" target="_blank">BTK Akademi Datathon</a>
+  role: <a href="https://www.kaggle.com/competitions/datathon2022" target="_blank">BTK Akademi Datathon 2022</a>
   duration: 22th/165 (Top 14%)
   url: "#"
   description:
