@@ -13,6 +13,7 @@
   url: "#"
   description:
 
+# Kaggle
 - competition: ""
   role: <a href="https://www.kaggle.com/competitions/playground-series-s3e25" target="_blank">Regression with a Mohs Hardness Dataset</a>
   duration: 52th/1632 (Top 4%)
@@ -79,5 +80,19 @@
 - competition: ""
   role: <a href="https://www.kaggle.com/competitions/halite" target="_blank">Halite by Two Sigma</a>
   duration: 261th/1139 (Top 23%)
+  url: "#"
+  description:
+
+# Zindi
+- competition: <a href="https://zindi.africa/users/abdullahaltay" target="_blank">Zindi</a>
+  role: <a href="https://zindi.africa/competitions/african-credit-scoring-challenge" target="_blank">African Credit Scoring Challenge</a>
+  duration: 17th/899 (Top 2%)
+  url: "#"
+  description:
+
+# Zindi
+- competition: ""
+  role: <a href="https://zindi.africa/competitions/telangana-crop-health-challenge" target="_blank">Telangana Crop Health Challenge</a>
+  duration: 30th/261 (Top 11%)
   url: "#"
   description:
