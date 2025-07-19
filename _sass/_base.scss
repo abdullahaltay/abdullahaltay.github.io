@@ -44,3 +44,13 @@ body{
     color: #fff;
     text-shadow: none;
 }
+
+// Improved underline spacing for all links
+a {
+  text-underline-offset: 2px; /* For modern browsers that support this property */
+  
+  &[style*="text-decoration: underline"], 
+  &:not([style*="text-decoration: none"]) {
+    text-underline-position: under; /* Alternative for browsers that support this */
+  }
+}
