@@ -149,6 +149,17 @@
     font-size: 1.125rem;
     margin: 0 0 .75rem;
     line-height: 1;
+    @include clearfix;
+
+    .position {
+      display: block;
+      float: left;
+    }
+
+    .duration {
+      display: block;
+      float: right;
+    }
 
     &.award-title {
       font-size: 1rem;
@@ -195,6 +206,85 @@
 }
 
 .print-only { display: none !important }
+
+// Mobile styles for smaller fonts
+@include media_mobile {
+  body {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .page-header {
+    .header-name {
+      font-size: 1.9rem;
+    }
+
+    .header-contact-info {
+      font-size: 0.8rem;
+    }
+
+    .title-bar .header-title {
+      font-size: 1.2rem;
+    }
+
+    .executive-summary {
+      font-size: 0.85rem;
+    }
+  }
+
+  .section-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .content-section {
+    .resume-item {
+      margin-bottom: 2rem;
+    }
+    
+    .resume-item-title {
+      font-size: 1.1rem;
+    }
+
+    .resume-item-details {
+      font-size: 0.9rem;
+
+      .position,
+      .duration {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+      .duration {
+        margin-top: 0.25rem;
+        font-weight: normal;
+        opacity: 0.8;
+      }
+
+      &.award-title {
+        font-size: 0.8rem;
+      }
+    }
+
+    .resume-item-copy {
+      font-size: 0.8rem;
+    }
+  }
+
+  .contact-button {
+    font-size: 1.1rem;
+    width: 180px;
+
+    &.not-looking { 
+      width: 300px;
+      font-size: 1rem;
+    }
+  }
+
+  .page-footer .footer-line {
+    font-size: 0.75rem;
+  }
+}
 
 @media print {
   .no-print { display: none !important }

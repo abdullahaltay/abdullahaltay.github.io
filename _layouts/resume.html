@@ -59,7 +59,10 @@
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description"><span style="display: block; float:left;">{{ job.position }}</span><span style="display: block; float:right;">{{ job.duration }}</span></h4><br/>
+          <h4 class="resume-item-details" itemprop="description">
+            <span class="position">{{ job.position }}</span>
+            <span class="duration">{{ job.duration }}</span>
+          </h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -79,7 +82,10 @@
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description"><span style="display: block; float:left;">{{ education.degree }}</span><span style="display: block; float:right;">{{ education.year }}</span></h4>
+          <h4 class="resume-item-details group" itemprop="description">
+            <span class="position">{{ education.degree }}</span>
+            <span class="duration">{{ education.year }}</span>
+          </h4>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
@@ -108,7 +114,10 @@
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if certification.url %}<a href="{{ certification.url }}" itemprop="url">{{ certification.certification }}</a>{% else %}{{ certification.certification }}{% endif %}</h3>
-          <h4 class="resume-item-details group" itemprop="description"><span style="display: block; float:left;">{{ certification.role }}</span><span style="display: block; float:right;">{{ certification.duration }}</span></h4>
+          <h4 class="resume-item-details group" itemprop="description">
+            <span class="position">{{ certification.role }}</span>
+            <span class="duration">{{ certification.duration }}</span>
+          </h4>
           <p class="resume-item-copy">{{ certification.description }}</p>
         </div>
         {% endfor %}
@@ -146,7 +155,10 @@
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if competition.url %}<a href="{{ competition.url }}" itemprop="url">{{ competition.competition }}</a>{% else %}{{ competition.competition }}{% endif %}</h3>
-          <h4 class="resume-item-details group" itemprop="description"><span style="display: block; float:left;">{{ competition.role }}</span><span style="display: block; float:right;">{{ competition.duration }}</span></h4>
+          <h4 class="resume-item-details group" itemprop="description">
+            <span class="position">{{ competition.role }}</span>
+            <span class="duration">{{ competition.duration }}</span>
+          </h4>
           <p class="resume-item-copy">{{ competition.description }}</p>
         </div>
         {% endfor %}
