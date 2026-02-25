@@ -16,14 +16,14 @@
   # description:
 
 # DataCamp
-- certification: # <a href="https://www.datacamp.com/" target="_blank">DataCamp</a>
+- certification: <a href="https://www.datacamp.com/" target="_blank">DataCamp</a>
   role: <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/e1dfd4d4a150b34a12057b82febf4e3917d23a4a" target="_blank">Machine Learning Scientist with Python</a>
   duration: Oct, 2023
   # url: "#"
   # description:
 
 # DataCamp
-- certification: # <a href="https://www.datacamp.com/" target="_blank">DataCamp</a>
+- certification: <a href="https://www.datacamp.com/" target="_blank">DataCamp</a>
   role: <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/6df382ae2c90f6b849621ccfd202e364c5bc6386" target="_blank">MLOps Fundamentals</a>
   duration: Oct, 2023
   # url: "#"
@@ -44,35 +44,35 @@
   # description:
 
 # IBM
-- certification: # <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
+- certification: <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
   role: <a href="https://www.credly.com/badges/2b94a819-a44f-4a7e-9f99-00463ee61489" target="_blank">Deep Learning Essentials</a>
   duration: Dec, 2022
   # url: "#"
   # description:
 
 # IBM
-- certification: # <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
+- certification: <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
   role: <a href="https://www.credly.com/badges/157979d3-39a2-4c7a-8602-aff0adf62ea1" target="_blank">Accelerated Deep Learning with GPU</a>
   duration: Dec, 2022
   # url: "#"
   # description:
 
 # IBM
-- certification: # <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
+- certification: <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
   role: <a href="https://www.credly.com/badges/762bb6bc-4639-4e27-9061-4fe4e73ad072" target="_blank">Machine Learning with Python</a>
   duration: Dec, 2022
   # url: "#"
   # description:
 
 # IBM
-- certification: # <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
+- certification: <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
   role: <a href="https://www.credly.com/badges/800931df-f4a7-4de7-a729-14a6ba38165b" target="_blank">Deep Learning using TensorFlow</a>
   duration: Dec, 2022
   # url: "#"
   # description:
 
 # IBM
-- certification: # <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
+- certification: <a href="https://www.credly.com/organizations/ibm/badges" target="_blank">IBM</a>
   role: <a href="https://www.credly.com/badges/801e7d65-1fdd-460c-bf8f-f3128728ee69" target="_blank">Deep Learning</a>
   duration: Dec, 2022
   # url: "#"

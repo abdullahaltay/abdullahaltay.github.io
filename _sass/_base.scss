@@ -7,24 +7,55 @@
 }
 
 html {
-  background: $white;
+  background: #f2f5f8;
+}
+
+:root {
+  --bg-soft: #f2f5f8;
+  --bg-contrast: #e6edf4;
+  --paper: #ffffff;
+  --text-main: #16202b;
+  --text-muted: #536171;
+  --stroke: #d2dbe4;
+  --accent: #0e7490;
+  --accent-strong: #0c5f76;
+  --shadow: 0 20px 60px rgba(16, 29, 43, 0.12);
 }
 
 body{
   @include serif;
-  color: $text_color;
+  color: var(--text-main);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.65;
+  margin: 0;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(14, 116, 144, 0.1), transparent 35%),
+    radial-gradient(circle at 88% 12%, rgba(22, 32, 43, 0.08), transparent 30%),
+    linear-gradient(180deg, var(--bg-soft), var(--bg-contrast));
 }
 
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
 .wrapper {
-  max-width: 728px;
-  padding: 0 24px;
-  margin: 0 auto;
+  max-width: 880px;
+  padding: 2.5rem 2rem;
+  margin: 2.2rem auto;
   zoom: 1;
+  background: var(--paper);
+  border: 1px solid var(--stroke);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    margin: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 1.5rem 1rem;
+  }
 }
 
 // clearfix (now called group,
@@ -35,22 +66,43 @@ body{
 .group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
 
 ::-moz-selection {
-    background: rgba(51,51,51,.8);
+    background: var(--accent);
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: rgba(51,51,51,.8);
+    background: var(--accent);
     color: #fff;
     text-shadow: none;
 }
 
 // Improved underline spacing for all links
 a {
-  text-underline-offset: 2px; /* For modern browsers that support this property */
+  color: var(--accent-strong);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
+  transition: color .2s ease;
   
   &[style*="text-decoration: underline"], 
   &:not([style*="text-decoration: none"]) {
-    text-underline-position: under; /* Alternative for browsers that support this */
+    text-underline-position: under;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: #083344;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid rgba(14, 116, 144, 0.3);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
   }
 }
