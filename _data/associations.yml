@@ -1,7 +1,7 @@
 # Associations
 # comment out the urls if you do not wish to display them
 - organization: "" #<a href="https://www.abantkongresi.org" target="_blank">ABANT 6th International Conference</a>
-  summary: <a href="https://www.abantkongresi.org/_files/ugd/797a84_507f6e6322084ce591d0e2ecfb45b051.pdf#page=140" target="_blank">1. Altay A., Neslihanoglu S., "GARCH ve LSTM Modellerinin Performans Karşılaştırması: Tarımsal Emtia Fiyatları Modellemesi Örneği", ABANT 6th International Conference on Current Scientific Researches, Bolu, Turkey, 20-22 February 2026</a>
+  summary: '<a href="https://www.abantkongresi.org/_files/ugd/797a84_507f6e6322084ce591d0e2ecfb45b051.pdf#page=140" target="_blank">1. Altay A., Neslihanoglu S., "GARCH ve LSTM Modellerinin Performans Karşılaştırması: Tarımsal Emtia Fiyatları Modellemesi Örneği", ABANT 6th International Conference on Current Scientific Researches, Bolu, Turkey, 20-22 February 2026</a>'
 
 - organization: "" #<a href="https://conferences.univ-danubius.ro/index.php/EIRP/EIRP2024" target="_blank">EIRP International Conference</a>
   summary: <a href="https://conferences.univ-danubius.ro/index.php/EIRP/EIRP2024/paper/view/3442" target="_blank">2. Neslihanoglu S., Altay A., "Prediction of US Agricultural Commodity Prices with Ordinary Least Squares and Long Short-Term Memory Neural Networks", 19th International Conference on European Integration - Realities and Perspectives, Galați, Romania, 17-18 May 2024</a>
