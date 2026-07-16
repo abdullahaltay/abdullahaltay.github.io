@@ -13,6 +13,35 @@
   {% endif %}
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.resume_name }}">
+  <meta name="theme-color" content="#0e7490">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/avatar.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/avatar.jpg">
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.resume_name }}",
+    "jobTitle": "{{ site.resume_title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "image": "{{ site.url }}{{ site.baseurl }}/images/avatar.jpg",
+    "sameAs": [
+      {% if site.resume_social_links.resume_github_url %}"{{ site.resume_social_links.resume_github_url }}"{% if site.resume_social_links.resume_linkedin_url %},{% endif %}{% endif %}
+      {% if site.resume_social_links.resume_linkedin_url %}"{{ site.resume_social_links.resume_linkedin_url }}"{% endif %}
+    ]
+  }
+  </script>
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

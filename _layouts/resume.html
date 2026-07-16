@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/avatar.jpg" alt="Portrait of {{ site.resume_name }}" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -135,8 +135,12 @@
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <h3 class="resume-item-title skill-category">{{ skill.category }}</h3>
+          <ul class="skill-tags">
+            {% for item in skill.items %}
+            <li class="skill-tag">{{ item }}</li>
+            {% endfor %}
+          </ul>
         </div>
         {% endfor %}
 
@@ -172,12 +176,14 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Congress Publication in Proceedings</h2>
+          <h2>Publications &amp; Conference Proceedings</h2>
         </header>
 
         {% for association in site.data.associations %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          {% if association.organization and association.organization != "" %}
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
+          {% endif %}
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
         {% endfor %}

@@ -218,6 +218,32 @@
     font-size: .99rem;
   }
 
+  .skill-category {
+    margin-bottom: .7rem;
+    font-size: clamp(1rem, 1.8vw, 1.14rem);
+  }
+
+  .skill-tags {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+  }
+
+  .skill-tag {
+    @include sans_regular;
+    font-size: .88rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--accent-strong);
+    background: rgba(14, 116, 144, .08);
+    border: 1px solid rgba(14, 116, 144, .22);
+    border-radius: 999px;
+    padding: .42rem .8rem;
+  }
+
   .resume-item-title,
   .resume-item-details,
   .resume-item-copy,
@@ -370,6 +396,23 @@
 
       &.award-title {
         font-size: 11px;
+      }
+    }
+
+    .skill-tags {
+      display: block;
+    }
+
+    .skill-tag {
+      display: inline;
+      border: 0;
+      background: none;
+      padding: 0;
+      color: inherit;
+      font-size: 12px;
+
+      &:not(:last-child):after {
+        content: " · ";
       }
     }
   }
